@@ -1,0 +1,27 @@
+.message{
+    align-items: center;
+}
+h1{
+    font-family: Georgia, serif;
+    font-size: 40px;
+    align-items: center;
+    
+}
+h2{
+    font-family: Georgia, serif;
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.f_button{
+    background-color: #ff33cc;
+    color: white;
+    margin: 30px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding: 10px;
+}

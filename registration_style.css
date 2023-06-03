@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    padding-left: 400px;
+}
+.navigation_bar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    font-family: Georgia, serif;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: black;
+}
+.register_space{
+    font-family: Georgia, serif;
+    display: flex;
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url(Images/Backgrounds/fashion_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content_container{
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color:#ff33cc;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    left: 0;
+    bottom: 0;
+}
+.user_details{
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.input_box{
+    font-family: Georgia, serif;
+    margin: 20px 0; 
+    margin-bottom: 15px;
+}
+.input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+    font-size: 16px;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+.input:focus, .input:valid{
+    border-color: #ff33cc;
+}
+.gender{
+    padding-right: 20px;
+}
+.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;;
+}
+.button{
+    padding: 2px;
+    height: 100%;
+    background-color: turquoise;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    font-family: Georgia, serif;
+}
+.footer{
+    background-color: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: Georgia, serif;
+}
+.footer ul{
+    list-style: none;
+}
+.column{
+    float:left;
+    width: 33.33%;
+    padding:30px;
+}
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
+}

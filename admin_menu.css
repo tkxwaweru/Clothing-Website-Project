@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.option1{
+    float: left;
+    width: 30%;
+    padding:5px;
+    padding-bottom: 10px;
+}
+.optionsList1::after{
+    content:"";
+    clear:both;
+    display:table; 
+    padding-bottom: 30px;
+}
+.option2{
+    float: left;
+    width: 30%;
+    padding:5px;
+    padding-bottom: 10px;
+}
+.optionsList2::after{
+    content:"";
+    clear:both;
+    display:table; 
+    padding-bottom: 30px;
+}
+.o_button{
+    background-color: #ff33cc;
+    color: white;
+    margin: 30px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}

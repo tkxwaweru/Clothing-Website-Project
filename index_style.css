@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    padding-left: 400px;
+}
+.navigation_bar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    font-family: Georgia, serif;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: black;
+}
+.af_container2{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.aboveFold1{
+    flex-basis: 50%;
+    min-width:300px;
+}
+.aboveFold1 h1{
+    font-size: 70px;
+    line-height: 60px;
+    margin: 25px;
+    align-content: center;
+    color: turquoise;
+    font-family: Georgia, serif;
+}
+.aboveFold1 p{
+    color: turquoise;
+    align-content: center;
+    font-size: 40px;
+    font-family: Georgia, serif;
+}
+.af_button1{
+    display: inline-block;
+    background-color: turquoise;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    font-family: Georgia, serif;  
+}
+.af_container2{
+    max-width: 2000px;
+    background-image: url(Images/Backgrounds/af_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section2 h1{
+    size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: turquoise;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+.benefit{
+    float: left;
+    width: 33.33%;
+    padding:5px;
+}
+.section2::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.benefit p{
+    color: turquoise;
+    font-size: 30px;  
+    font-family: Georgia, serif;
+    clear: both;
+    display: inline-block;
+    overflow: visible;
+    white-space: nowrap;
+}
+.section3{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    background-image: url(Images/Backgrounds/trustees.jfif);
+    background-size: cover;
+}
+.quote {
+    font-size: 30px;
+    align-content: center;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 75%; 
+    font-family: Georgia, serif;
+    padding-left: 40px;
+    font-style: italic;
+}
+.feature{
+    float: left;
+    width: 33.33%;
+    padding:5px; 
+}
+.featuresList::after{
+    content:"";
+    clear:both;
+    display:table; 
+    padding-bottom: 30px;  
+}
+.f_button{
+    background-color: #ff33cc;
+    color: white;
+    margin: 30px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer{
+    background-color: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: Georgia, serif;
+}
+.column{
+    float:left;
+    width: 33.33%;
+    padding:30px;
+}
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+

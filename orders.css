@@ -1,0 +1,149 @@
+body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+}
+
+#shopping-cart {
+	margin: 40px;
+}
+
+#product-grid {
+	margin: 40px;
+	font-family: Georgia, serif;
+}
+
+#shopping-cart table {
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+#shopping-cart table td {
+	background-color: #FFFFFF;
+}
+
+.txt-heading {
+	color: #ff33cc;
+	border-bottom: 1px solid #E0E0E0;
+	overflow: auto;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    
+}
+
+#btnEmpty {
+	background-color: #ffffff;
+	border: #d00000 1px solid;
+	padding: 5px 10px;
+	color: #d00000;
+	float: right;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 10px 0px;
+	font-family: Georgia, serif;
+}
+
+.btnAddAction {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: turquoise;
+    border: #E0E0E0 1px solid;
+    color: white;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+	font-family: Georgia, serif;
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 18px;
+	font-family: Georgia, serif;
+}
+
+.product-item {
+	float: left;
+	background: #ffffff;
+	margin: 30px 30px 0px 0px;
+	border: #E0E0E0 1px solid;
+}
+
+.product-image {
+	height: 155px;
+	width: 250px;
+	background-color: #FFF;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.demo-input-box {
+	border-radius: 2px;
+	border: #CCC 1px solid;
+	padding: 2px 1px;
+}
+
+.tbl-cart {
+	font-size: 0.9em;
+	font-family: Georgia, serif;
+}
+
+.tbl-cart th {
+	font-weight: normal;
+	font-family: Georgia, serif;
+}
+
+.product-title {
+	margin-bottom: 20px;
+	font-family: Georgia, serif;
+}
+
+.product-price {
+	float:left;
+	font-family: Georgia, serif;
+}
+
+.cart-action {
+	float: right;
+}
+
+.product-quantity {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+	font-family: Georgia, serif;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+	font-family: Georgia, serif;
+}
+
+.cart-item-image {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+	font-family: Georgia, serif;
+}
+.f_button{
+    background-color: #ff33cc;
+    color: white;
+    margin: 30px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    float:right
+}
+
